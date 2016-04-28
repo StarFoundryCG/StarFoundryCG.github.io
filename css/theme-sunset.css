@@ -92,16 +92,16 @@
   background: none;
   border: none;
   box-shadow: none;
-  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .font-body {
-  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .font-heading {
-  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
 }
 body {
-  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #777777;
   font-size: 14px;
@@ -114,7 +114,7 @@ h4,
 h5,
 h5,
 h6 {
-  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: 300;
   color: #333333;
   margin: 0px;
@@ -354,7 +354,7 @@ section:nth-of-type(even) {
   padding: 14px 28px 13px 28px;
   line-height: 1;
   border: 2px solid #ca293e;
-  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -460,7 +460,7 @@ section:nth-of-type(even) {
   border-color: rgba(0, 0, 0, 0);
 }
 .link-text {
-  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -577,12 +577,12 @@ nav hr {
   margin-right: 0px;
 }
 .menu li a {
-  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #FFFF00;
+  color: #000;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   transition: all .5s ease;
@@ -591,7 +591,7 @@ nav hr {
   line-height: 14px;
 }
 .menu li a:hover {
-  color: #333333;
+  color: #000;
 }
 @media all and (max-width: 1050px) {
   .menu li {
@@ -608,10 +608,10 @@ nav hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .overlay-bar .menu li a {
-  color: #DD8DAB;
+  color: #fff;
 }
 .overlay-bar .menu li a:hover {
-  color: #DE0052;
+  color: #fff;
 }
 .overlay-bar .social-icons li a {
   color: #737373;
@@ -1629,7 +1629,7 @@ img.phone-portrait {
   font-size: 18px;
 }
 .testimonials-slider .author {
-  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -2096,7 +2096,7 @@ blockquote {
 }
 
 .filtersFooter li a {
-  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
