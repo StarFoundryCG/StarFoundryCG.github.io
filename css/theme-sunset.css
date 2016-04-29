@@ -5,7 +5,7 @@
   background-color: #1D1AB2 !important;
 }
 .bg-secondary-2 {
-  background-color: #f4f4f4 !important;
+  background-color: #FFF9E3 !important;
 }
 .bg-secondary-3 {
   background-color: #FFFF00 !important;
@@ -98,7 +98,7 @@
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .font-heading {
-  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -114,13 +114,13 @@ h4,
 h5,
 h5,
 h6 {
-  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #333333;
   margin: 0px;
 }
 .alt-font {
-  font-family: "Arvo", "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -429,6 +429,11 @@ section:nth-of-type(even) {
   background: #FFFF00;
   color: #000;
   border-color: #FFFF00;
+}
+.btn-solid-blue.btn-filled {
+  background: #7C7AB2;
+  color: #fff;
+  border-color: #7C7AB2;
 }
 
 .btn-lite-blue {
@@ -904,7 +909,7 @@ header .btn:last-child {
   margin-right: 16px;
 }
 .program-detail .btn:last-child {
-  marging-right: 0px;
+  margin-right: 0px;
 }
 
 .hero-slider {
