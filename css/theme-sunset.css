@@ -302,6 +302,10 @@ section:nth-of-type(odd) {
 section:nth-of-type(even) {
   background: #ffffff;
 }
+/*
+.pad-top-small {
+  padding-top: 20px;
+} */
 .no-pad {
   padding: 0px;
 }
@@ -2157,6 +2161,10 @@ blockquote {
   overflow: hidden;
 }
 @media screen and (max-width: 990px) {
+  .pad-top-small {
+  padding-top: 20px;
+  }
+  
   .project.col-md-4 {
     width: 50%;
   }
@@ -2171,6 +2179,11 @@ blockquote {
   }
 }
 @media screen and (max-width: 767px) {
+  
+  .pad-top-small {
+  padding-top: 20px;
+  }  
+
   .project.col-md-4 {
     width: 100%;
   }
