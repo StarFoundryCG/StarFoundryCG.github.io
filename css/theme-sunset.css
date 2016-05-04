@@ -1,8 +1,8 @@
 .bg-primary {
-  background-color: #7C7AB2 !important;
+  background-color: /*#7C7AB2*/ #5a5899 !important;
 }
 .bg-secondary-1 {
-  background-color: #1D1AB2 !important;
+  background-color: /*#1D1AB2 #c2c1f6*/ #9694d5 !important;
 }
 .bg-secondary-2 {
   background-color: #FFF9E3 !important;
@@ -11,7 +11,7 @@
   background-color: #FFFF00 !important;
 }
 .bg-secondary-4 {
-  background-color: #0B095A !important;
+  background-color: /*#0B095A #d3d3d3 */ #a2a2a2 !important;
 }
 .bg-white {
   background-color: #fff !important;
@@ -879,7 +879,7 @@ header .btn:last-child {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.3;
+  opacity: 0.4;
   z-index: 2;
   background-color: #333333;
 }
@@ -1476,10 +1476,23 @@ img.phone-portrait {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-size: tile !important;
+  background-repeat: repeat !important;
   z-index: 0;
   background-position: 50% 50% !important;
 }
+
+.page-header .background-image-holder,
+.foreground-image-holder {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  z-index: 0;
+  background-position: 50% 50% !important;
+}
+
 .background-image-holder.parallax-background {
   height: 120%;
   top: -10%;
@@ -1612,7 +1625,7 @@ img.phone-portrait {
   opacity: 1;
 }
 .text-image-bottom {
-  padding-bottom: 0px;
+  padding-bottom: 40px;
 }
 .text-image-bottom img {
   display: inline-block;
@@ -2072,27 +2085,29 @@ blockquote {
 .filters {
   padding: 0px;
   list-style: none;
-  overflow: hidden;
   display: inline-block;
+  margin-top: 32px;
   margin-bottom: 32px;
 }
-.filters li {
+.filters li  {
+  padding-top: 30px;
   float: left;
-  margin-right: 16px;
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 34px;
+  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 11px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #ca293e;
+  color: #000;
   cursor: pointer;
 }
 .filters li:last-child {
   margin-right: 0px;
 }
+/*
 .filters li.active {
   border-bottom: 2px solid #ca293e;
-}
+} */
 
 .filtersFooter {
   padding: 0px;
@@ -2106,7 +2121,7 @@ blockquote {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #DD8DAB;
+  color: #FFF;
   cursor: pointer;
   line-height: 3;
   text-align: left;
@@ -2858,7 +2873,7 @@ footer.social .sub a {
   font-weight: 600;
 }
 footer.details {
-  background: #f4f4f4;
+  background: #df6a8b;
 }
 footer.details .logo {
   margin-bottom: 54px;
@@ -2869,14 +2884,18 @@ footer.details .sub {
   font-size: 12px;
   display: inline-block;
   margin-top: 48px;
+  color: #ffffff;
 }
 footer.details .sub a {
-  color: #333333;
+  color: #ffffff;
   font-weight: 600;
 }
 footer.details h1 {
   font-size: 16px;
   font-weight: 600;
+}
+footer.details li a {
+  color: #ffffff;
 }
 footer.short {
   font-size: 16px;
@@ -2946,6 +2965,10 @@ footer.short-2 .contact-action:hover {
   padding-left: 133px;
   padding-right: 20px;
 }
+
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .top-bar {
     position: absolute;
@@ -3239,7 +3262,7 @@ footer.short-2 .contact-action:hover {
   .filters li {
     margin: 0;
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
   }
   .project {
     width: 100%;
