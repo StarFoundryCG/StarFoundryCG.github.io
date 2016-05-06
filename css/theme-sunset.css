@@ -2509,27 +2509,30 @@ input[type="submit"] {
 .photo-form-wrapper {
   margin-bottom: 200px;
 }
-.photo-form-wrapper input {
+.photo-form-wrapper input,
+.photo-form-wrapper textarea {
   background: none;
   border: none;
   box-shadow: none;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: rgba(255, 255, 255, 0.85);
-  border-radius: 50px;
+  border-radius: 25px;
   padding: 14px 24px 14px 24px;
   width: 100%;
   margin-bottom: 30px;
 }
+
+
 .photo-form-wrapper .btn-filled {
-  background-color: #820233;
-  border-color: #820233;
+  background-color: #34D800;
+  border-color: #34D800;
 }
 .photo-form-wrapper input:focus {
   outline: none;
 }
 .photo-form-wrapper input[type="submit"] {
   color: #fff !important;
-  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -2537,7 +2540,7 @@ input[type="submit"] {
 }
 .photo-form-wrapper .form-loading {
   border: 3px solid rgba(255, 255, 255, 0.85);
-  border-radius: 30px;
+  border-radius: 25px;
   height: 30px;
   left: 50%;
   margin: -15px 0 0 -15px;
