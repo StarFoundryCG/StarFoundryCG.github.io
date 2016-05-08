@@ -59,7 +59,7 @@
   color: #007b77;
 }
 .text-blue {
-  color: #1D1AB2;
+  color: #5a589a;
 }
 .text-primary {
   color: #820233;
@@ -439,9 +439,9 @@ section:nth-of-type(even) {
   border-color: #FFFF00;
 }
 .btn-solid-blue.btn-filled {
-  background: #7C7AB2;
+  background: #7b7bac;
   color: #fff;
-  border-color: #7C7AB2;
+  border-color: #7b7bac;
 }
 
 .btn-lite-blue {
@@ -3020,6 +3020,7 @@ footer.short-2 .contact-action:hover {
 
 .footer-nav-label {
   font-size: 1.5em;
+  font-family: "Nunito", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
 }
 
