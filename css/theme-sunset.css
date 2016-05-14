@@ -95,13 +95,13 @@
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .font-body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .font-heading {
-  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #777777;
   font-size: 14px;
@@ -114,17 +114,13 @@ h4,
 h5,
 h5,
 h6 {
-  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #333333;
   margin: 0px;
 }
 .alt-font {
-  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
 }
 ul {
   list-style: none;
@@ -362,10 +358,10 @@ section:nth-of-type(even) {
   padding: 14px 28px 13px 28px;
   line-height: 1;
   border: 2px solid #ca293e;
-  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, serif, sans-serif;
   font-weight: bold;
-  font-size: 11px;
-  text-transform: uppercase;
+  font-size: 1em;
+  text-transform: capitalize;
   letter-spacing: 1px;
   color: #ca293e;
 }
@@ -590,10 +586,10 @@ nav hr {
   margin-right: 0px;
 }
 .menu li a {
-  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 11px;
-  text-transform: uppercase;
+  font-size: 1em;
+  text-transform: capitalize;
   letter-spacing: 1px;
   color: #000;
   -webkit-transition: all .5s ease;
@@ -2514,7 +2510,7 @@ input[type="submit"] {
   background: none;
   border: none;
   box-shadow: none;
-  font-family: "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: rgba(255, 255, 255, 0.85);
   border-radius: 25px;
   padding: 14px 24px 14px 24px;
@@ -2532,7 +2528,7 @@ input[type="submit"] {
 }
 .photo-form-wrapper input[type="submit"] {
   color: #fff !important;
-  font-family: "Lato", "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
@@ -3009,18 +3005,18 @@ footer.short-2 .contact-action:hover {
   float: left;
   list-style: none;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5;
-  font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0;
   direction: ltr;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 
 .footer-nav-label {
-  font-size: 1.5em;
-  font-family: "Nunito", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
 }
 
