@@ -353,7 +353,6 @@ section:nth-of-type(even) {
   background-color: #ca293e;
 }
 .btn-primary {
-  border-radius: 25px;
   display: inline-block;
   padding: 14px 28px 13px 28px;
   line-height: 1;
@@ -396,7 +395,15 @@ section:nth-of-type(even) {
   color: #fff;
   background: #ff7600;
 }
-
+.btn-black {
+  border-color: #737373;
+  color: #737373;
+}
+.btn-black:hover {
+  background: #737373;
+  color: #fff;
+  border-color: #737373;
+}
 .btn-white {
   border-color: #fff;
   color: #fff;
@@ -1024,7 +1031,7 @@ header.title:before {
   z-index: 3;
 }
 .action-banner h1 {
-  font-size: 40px;
+  font-size: 55px;
   line-height: 56px;
   font-weight: 600;
   margin-bottom: 64px;
@@ -1094,7 +1101,7 @@ header.signup:before {
   max-width: 750px;
 }
 .hero-divider {
-  padding: 160px 0px;
+  padding: 360px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -1104,16 +1111,22 @@ header.signup:before {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.4;
+  opacity: 0.6;
   z-index: 2;
-  background-color: #333333;
+  background-color: #FFF9E3;
 }
-.hero-divider .btn {
-  margin-right: 16px;
-  margin-top: 24px;
+.hero-diver .btn {
+
 }
-.hero-divider .btn:last-child {
-  margin-right: 0px;
+@media all and (max-width: 768px) {
+  .hero-divider .btn {
+    margin-right: 16px;
+    margin-top: 24px;
+  }
+
+  .hero-divider .btn:last-child {
+    margin-right: 0px;
+  }
 }
 .hero-divider .container {
   position: relative;
@@ -1249,6 +1262,8 @@ header.fullscreen-element .overlay:before,
   font-size: 48px;
   padding-top: 0px;
 }
+
+
 .selector-tabs {
   margin-bottom: 56px;
 }
@@ -1487,6 +1502,18 @@ img.phone-portrait {
 
 .page-header .background-image-holder,
 .foreground-image-holder {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  z-index: 0;
+  background-position: 50% 50% !important;
+}
+
+.hero-divider .background-image-holder,
+.forground-image-holder {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -3379,10 +3406,11 @@ footer.short-2 .contact-action:hover {
   .image-gallery .image-holder {
     height: 225px;
   }
+  /*
   .hero-divider {
     padding-top: 64px;
     padding-bottom: 64px;
-  }
+  }*/
   .hero-divider .video-wrapper {
     display: none;
   }
