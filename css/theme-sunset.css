@@ -2663,9 +2663,9 @@ input[type="submit"] {
   margin-right: 0px;
 }
 .icon-jumbo {
-  display: inline-block;
+  /* display: inline-block;*/
   color: #820233;
-  text-align: center;
+  text-align: center !important;
   font-size: 64px;
   margin-bottom: 24px;
 }
