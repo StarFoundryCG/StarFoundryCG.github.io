@@ -1,9 +1,9 @@
 
-/*
-.bg-primary {
-  background-color: #5a5899 !important;
+
+.bg-primary  /*canonical pink*/ {
+  background-color: #DB5A7F !important;
 }
-*/
+
 .bg-secondary-1 /*Saturated Blue*/ {
   background-color: #9694d5 !important;
 }
@@ -544,6 +544,44 @@ section:nth-of-type(even) {
 .event-info li:last-child {
   width: 150px;
 }
+
+.arrow_box {
+  position: relative;
+  background: #FFF9E3;
+  border: 2px solid #9694d5;
+}
+.arrow_box:after, .arrow_box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  z-index: 2;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(255, 249, 227, 0);
+  border-top-color: #FFF9E3;
+  border-width: 30px;
+  margin-left: -30px;
+}
+.arrow_box:before {
+  border-color: rgba(150, 148, 213, 0);
+  border-top-color: #9694d5;
+  border-width: 36px;
+  margin-left: -36px;
+}
+
+.last_box {
+  position: relative;
+  background: #fff9e3;
+  border: 2px solid #9694d5;
+}
+
+
 
 nav hr {
   border: none;
