@@ -293,6 +293,14 @@ section {
 section.pad-small {
   padding-top:30px;
 }
+section.pad-small-team-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section.pad-small-team-2 {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
 section.pad-large {
   padding-top: 160px;
   padding-bottom: 160px;
@@ -971,7 +979,7 @@ header .btn:last-child {
 .page-header {
   margin: 0px;
   padding: 0px;
-  padding: 160px 0px;
+  padding: 80px 0px;
   border-bottom: none;
 }
 .page-header h1 {
