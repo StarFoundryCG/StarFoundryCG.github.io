@@ -4,8 +4,8 @@
   background-color: #DB5A7F !important;
 }
 
-.bg-secondary-1 /*Saturated Blue*/ {
-  background-color: #9694d5 !important;
+.bg-secondary-1 /*Saturated Blue #9694d5*/ {
+  background-color: #7B7BAC !important;
 }
 .bg-secondary-2 /*Pale Yellow*/ {
   background-color: #FFF9E3 !important;
@@ -481,9 +481,9 @@ section:nth-of-type(even) {
   border-color: #FFFF00;
 }
 .btn-solid-blue.btn-filled {
-  background: #7b7bac;
+  background: #9694d5; /*#7B7BAC*/
   color: #fff;
-  border-color: #7b7bac;
+  border-color: #9694d5;
 }
 
 .btn-lite-blue {
