@@ -1,7 +1,7 @@
 
 
 .bg-primary  /*canonical pink*/ {
-  background-color: #DB5A7F !important;
+  background-color: #DF6A8A !important;
 }
 
 .bg-secondary-1 /*Saturated Blue #9694d5*/ {
@@ -327,6 +327,9 @@ section:nth-of-type(even) {
 
 .bottom-border {
   border-bottom: 1px solid #000;
+}
+.bottom-border-white {
+  border-bottom: 1px solid #fff;
 }
 
 .solid-border {
@@ -1220,7 +1223,7 @@ header.signup:before {
   z-index: 2;
   background-color: #FFF9E3;
 }
-.hero-diver .btn {
+.hero-divider .btn {
 
 }
 @media all and (max-width: 768px) {
